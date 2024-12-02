@@ -1,4 +1,4 @@
-# Agents-and-Search-Knowledge-Representation
+# Assignment 1: Agents-and-Search-Knowledge-Representation
 Knowledge Representation Assignment from the Masters in Artificial Intelligence course from MTU using vital knowledge from the libraries involved in the AIMA-python public library. 
 
 1.1 BUILDING YOUR AGENT BASED WORLD
@@ -25,3 +25,27 @@ The goal state for the search world is to get to the optimal path to efficiently
  3. Iterative Deepening Search
 
 References: Review of the "agents.ipynb" amd "search.ipynb" from the AIMA-python repository. 
+___________________________________________________________________
+
+# Assignment 2: 
+
+This project utilised knowledge in Logical reasoning via first-order logic (FOL), Baysian Networks, Implementation and analysis of Naive Bayes Classifiers, Data processing and Pre-processing using the IRIS dataset. 
+Encode the KB,encode the facts and run the Inference using forward chaining and backward chaining algorithm provided by the AIMA library to derive all possible inferences from the given facts and rules. Compare and contrast the approach. 
+ 
+ 1.1 LOGICAL REASONING
+ In first-order logic (FOL) define the following clauses relating to family relationships:
+1. Sibling Relationship: If two people share the same mother and father, and they are not the sameperson, then they are siblings.
+2. Parent Relationship: If someone is a parent of a child, then that child is not the parent of the person.
+3. Maternal Grandparent Relationship: A person is a maternal grandparent of a child if they are the mother of the child’s parent.
+4. Spousal Relationship: If someone is a spouse of another person, then vice-versa holds true, and a person is not a spouse of themselves.
+ Now provide facts related to these relationships, and we can then employ inference mechnisms to derive new knowledge about the relationships.
+ • Alice and Bob are the parents of Carol.
+ • Alice and Bob are the parents of Dave.
+ • Eve is the spouse of Dave.
+ • Carol is the parent of Frank.
+ Using these facts, we can infer additional information, such as:
+ • Carol and Dave are siblings.
+ • Alice is the maternal grandparent of Frank.
+ • Dave and Eve are spouses to each other.
+ • Bob is also a grandparent of Frank, but since we’ve only defined “MaternalGrandparent”, we cant infer “PaternalGrandparent” without additional rules.
+
