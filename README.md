@@ -1,5 +1,5 @@
 # Agents-and-Search-Knowledge-Representation
-Knowledge Representation Assignment from my Masters in Artificial Intelligence using vital knowledge from the libraries involved in the AIMA-python public library. 
+Knowledge Representation Assignment from the Masters in Artificial Intelligence course from MTU using vital knowledge from the libraries involved in the AIMA-python public library. 
 
 1.1 BUILDING YOUR AGENT BASED WORLD
 ____________________________________
