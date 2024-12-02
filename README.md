@@ -29,7 +29,7 @@ ___________________________________________________________________
 
 # Assignment 2: 
 
-This project utilised knowledge in Logical reasoning via first-order logic (FOL), Baysian Networks, Implementation and analysis of Naive Bayes Classifiers, Data processing and Pre-processing using the IRIS dataset. 
+This project utilised knowledge in Logical reasoning via first-order logic (FOL), Baysian Networks, Implementation and analysis of Naive Bayes Classifiers, Data processing and Pre-processing using the IRIS dataset and WINE dataset in csv files. 
 Encode the KB,encode the facts and run the Inference using forward chaining and backward chaining algorithm provided by the AIMA library to derive all possible inferences from the given facts and rules. Compare and contrast the approach. 
  
  1.1 LOGICAL REASONING
